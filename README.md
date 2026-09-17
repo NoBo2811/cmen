@@ -10,7 +10,7 @@ medecine-esthetique.html      Liste des soins
 soin-*.html                   12 pages de soins
 a-propos.html                 Le cabinet, l'équipe, la philosophie
 blog.html                     Liste des articles
-article.html                  Gabarit d'article
+article-*.html                Articles de blog
 contact.html                  Coordonnées, horaires, plan
 404.html                      Page d'erreur
 assets/styles.css             Feuille de style unique (couleurs, typo, responsive)
@@ -26,10 +26,16 @@ Tout se modifie directement dans les fichiers HTML. Les couleurs et la typograph
 
 ### Ajouter un article de blog
 
-1. Dupliquer `article.html` en `article-mon-sujet.html`
-2. Modifier le titre, la date, l'image de couverture et le texte
-3. Dans `blog.html`, dupliquer un bloc `<a class="post-card">` et pointer le `href` vers le nouveau fichier
-4. Ajouter la page dans `sitemap.xml`
+1. Dupliquer un fichier `article-*.html` existant et le renommer avec des mots-clés (ex. `article-peeling-medical.html`)
+2. Modifier le `<title>`, la `<meta name="description">`, le titre, la date, l'image de couverture et le texte
+3. Mettre à jour les deux cartes « À lire aussi » en bas de page
+4. Dans `blog.html`, dupliquer un bloc `<a class="post-card">` et pointer le `href` vers le nouveau fichier
+5. Ajouter la page dans `sitemap.xml`
+
+Articles actuels :
+- `article-medecine-esthetique-neuchatel.html`
+- `article-prp-plasma-riche-plaquettes.html`
+- `article-peau-deshydratee.html`
 
 ### Ajouter un soin
 

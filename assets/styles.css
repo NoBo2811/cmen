@@ -371,6 +371,11 @@ nav.links a.active,nav.links a.dd-trigger.active{font-weight:600}
 .article-body ul li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--sage);margin-top:9px}
 .article-body blockquote{margin:30px 0;padding:22px 28px;border-left:3px solid var(--sage);background:var(--paper);border-radius:0 14px 14px 0;font-family:var(--serif);font-style:italic;font-size:21px;color:var(--ink);line-height:1.5}
 .article-body strong{color:var(--ink);font-weight:600}
+.article-body a{color:var(--terra-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.article-body a:hover{color:var(--ink)}
+.art-contact{margin:38px 0 0;padding:24px 28px;background:var(--sand);border:1px solid var(--line);border-radius:18px}
+.art-contact p{font-size:16px;margin:0;line-height:1.7;color:var(--ink-soft)}
+.art-contact strong{color:var(--ink)}
 .article-foot{max-width:760px;margin:0 auto;padding:24px 40px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:30px}
 .related{padding:80px 0;background:var(--sand)}
 
