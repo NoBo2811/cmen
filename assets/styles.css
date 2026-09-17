@@ -371,8 +371,11 @@ nav.links a.active,nav.links a.dd-trigger.active{font-weight:600}
 .article-body ul li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--sage);margin-top:9px}
 .article-body blockquote{margin:30px 0;padding:22px 28px;border-left:3px solid var(--sage);background:var(--paper);border-radius:0 14px 14px 0;font-family:var(--serif);font-style:italic;font-size:21px;color:var(--ink);line-height:1.5}
 .article-body strong{color:var(--ink);font-weight:600}
-.article-body a{color:var(--terra-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
-.article-body a:hover{color:var(--ink)}
+.article-body a:not(.btn){color:var(--terra-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.article-body a:not(.btn):hover{color:var(--ink)}
+.article-body .btn-primary{color:#fff;text-decoration:none}
+.article-body .btn-ghost{color:var(--ink);text-decoration:none}
+.article-body .btn-ghost:hover{background:var(--ink);color:var(--ivory)}
 .art-contact{margin:38px 0 0;padding:24px 28px;background:var(--sand);border:1px solid var(--line);border-radius:18px}
 .art-contact p{font-size:16px;margin:0;line-height:1.7;color:var(--ink-soft)}
 .art-contact strong{color:var(--ink)}
